@@ -7,7 +7,7 @@ const Coin = ({ coin }) => {
       <div className={styles.coinPage}>
         <div className={styles.coinContainer}>
           <img
-            src={coin.image.thumb}
+            src={coin.image.small}
             alt={coin.name}
             className={styles.coinImg}
           />
